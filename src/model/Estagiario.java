@@ -13,7 +13,7 @@ public class Estagiario extends Funcionario{
 
     public Estagiario(String nome, String cpf, double salario,String instituicao) {
         super(nome, cpf, salario);
-        this.instituicao = instituicao;
+        this.instituicao = "cefet";
     }
 
     @Override
